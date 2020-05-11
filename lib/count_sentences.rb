@@ -19,7 +19,7 @@ class String
     self.split = new_array
     binding.pry
     self.each do |word|
-      << self.ends_with?(".","?","!")
+    new_array  << self.ends_with?(".","?","!")
 
 
   end
