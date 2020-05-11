@@ -15,11 +15,11 @@ class String
   end
 
   def count_sentences
-    self.split = []
+    new_array = []
+    self.split = new_array
     binding.pry
-    self.each do |
-
-    self.ends_with?(".","?","!")
+    self.each do |word|
+      << self.ends_with?(".","?","!")
 
 
   end
