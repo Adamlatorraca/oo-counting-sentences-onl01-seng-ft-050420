@@ -17,6 +17,5 @@ class String
   def count_sentences
     self.split = []
     binding.pry
-    if self.ends_with?(.)
   end
 end
