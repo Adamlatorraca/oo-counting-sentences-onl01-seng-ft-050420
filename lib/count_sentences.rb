@@ -5,6 +5,7 @@ class String
   def sentence?
     if String.last == "."
     else "sorry, not a sentence"
+    end
   end
 
   def question?
