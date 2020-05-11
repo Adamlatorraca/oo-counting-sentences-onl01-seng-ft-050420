@@ -15,7 +15,12 @@ class String
   end
 
   def count_sentences
-    self.split
+    self.split = []
     binding.pry
+    self.each do |
+
+    self.ends_with?(".","?","!")
+
+
   end
 end
