@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     new_array = []
-    self.split = new_array
+    self.split
     self.each do |word|
     new_array  << self.ends_with?(".","?","!")
   end
